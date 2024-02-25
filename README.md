@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+Strada AI - Frontend
+====================
+Strada AI is a chest X-ray cardiovascular disease diagnosis assistance solution. It uses AI to automatically analyze and draw cardiovascular borders, reducing errors due to differences in diagnosis between experts, and increasing aesthetic usability through data visualization based on human-centered design methodology for differential diagnosis, disease severity classification, and clinical outcome prediction.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![](https://camo.githubusercontent.com/add929856aef879770c137da33346a94e8217cf9668426f29de3f48777053f3d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f6e747269627574696f6e732d77656c636f6d652d627269676874677265656e3f6c6f676f3d676974687562) ![](https://camo.githubusercontent.com/5ccf68bcf33036de63c4c00779b451b3985faee5a22f2c30801c03a14e722994/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f64697363757373696f6e732d4769744875622d3333333333333f6c6f676f3d676974687562)
 
-Currently, two official plugins are available:
+[Contributing Guidelines](CONTRIBUTING.md) · [Submit an Issue](https://github.com/Strada-AI/frontend-vite/issues)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* * *
 
-## Expanding the ESLint configuration
+### Contributing
+Please contribute using [Github Flow](https://docs.github.com/en/get-started/using-github/github-flow) Create a branch, add commits, and open a pull request.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Please read [CONTRIBUTING](CONTRIBUTE.md) for details on our [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### License
+This project is licensed under the [MIT License](https://opensource.org/license/MIT) -- see the [LICENSE](LICENSE) file for details.
