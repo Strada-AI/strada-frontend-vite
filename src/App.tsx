@@ -1,10 +1,11 @@
+import React from "react";
+import { Button } from "./components/ui/Button";
 function App() {
-
     return (
-        <div className="pr-4 w-screen text-center">
-            <span className="text-3xl font-bold">Strada AI</span>
+        <div className="w-screen flex flex-col items-center justify-center space-y-4">
+            <span className="text-3xl">Welcome to strada</span>
+            <Button value="Get Started" className="dark:(border-dark-300 bg-gray-800 text-white)" />
         </div>
     );
 }
-
 export default App;
