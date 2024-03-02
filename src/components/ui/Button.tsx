@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { Button as NextUIButton } from "@nextui-org/react";
 
 interface ButtonProps {
